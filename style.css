@@ -1,0 +1,113 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url('img/steve2.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	overflow: hidden;
+}
+header{
+	text-align: center;
+	box-shadow: 0px 2px 2px #11213b;
+	width: 100vw;
+	height: 15vh;
+	position: absolute;
+	background-color: #40608c;
+	top: 0;
+	color: #FFFFFF;
+}
+header h1{
+	display: inline-block;
+	margin: 4.5vh;
+	font-size: 300%;
+	font-style: italic;
+}
+main{
+	width: 70vw;
+	margin: 0 auto;
+	margin-top: 16vh;
+	background-color: #FFFFFF;
+	min-height: 68vh;
+	border-radius: 10px 50px;
+	border-left: solid 1px #000000;
+}
+main section{
+	float: left;
+	min-height: 68vh;
+}
+#menu{
+	width: 12vw;
+	border-radius: 10px 0px 0px 50px;
+	background-color: #EEEEEE;
+	border-right: solid 1px #DDDDDD;
+}
+#menu ul{
+	margin: 0;
+	padding: 2vh 0;
+	border-radius: 10px 0px 0px 0px;
+}
+#menu li{
+	padding: 2.5vh 0 ;
+	box-sizing: border-box;
+	text-decoration: none;
+	text-align: center;
+	width: 100%;
+	background-color: #EEEEEE;
+	display: block;
+	height: 6.8vh;
+	border-top: solid 1px #FFFFFF;
+	border-bottom: solid 1px #DDDDDD;
+	transition: background-color, 0.5s linear;
+}
+#menu li:hover{
+	background-color: #FFFFFF;
+}
+#menu li:first-of-type{
+	border-top: solid 1px #DDDDDD;
+}
+#display{
+	background-color: #FFFFFF;
+	width: 57vw;
+	border-radius: 50px 50px 10px 0px;
+	float: right;
+}
+#heading{
+	font-variant: small-caps;
+	font-size: 250%;
+	margin: 5px;
+}
+#content{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin-right: 1vh;
+}
+.active{
+	background-color: #FFFFFF !important;
+}
+a{
+	display: block;
+	text-decoration: none;
+	color: #0000FF;
+	margin: 1vh;
+}
+img{
+	width: 8vw;
+	margin: 20px;
+}
+video{
+	display: block;
+	width: 25vw;
+	margin: 0 auto;
+	margin-top: 3vh;
+}
+footer{
+	box-sizing: border-box;
+	color: #FFFFFF;
+	width: 100vw;
+	height: 15vh;
+	background-color:  #11213b;
+	text-align: center;
+	font-size: 150%;
+	padding: 3% 0;
+	box-shadow: 0 -1px 2px #40608c;
+	margin-top: 1vh;
+}
